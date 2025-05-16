@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Price Watch - Area Chart</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/price.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Custom styles for this template-->
+        <link href="css/sb-admin-2.min.css" rel="stylesheet" />
+        
+    </head>
+    <body id="page-top" style="background-color: peachpuff;">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 mainNav2" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Price Watch</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="area.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="area.html#services">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Back To Main Page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="mastheadd">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">How does the retail environment impact pricing strategies?</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">The retail environment also influences pricing. Supermarkets, convenience stores, and online retailers each offer different pricing strategies. Supermarkets, with their bulk purchasing power, can offer lower prices, while convenience stores often charge a premium due to the ease and convenience they provide. Online platforms may offer competitive pricing, but additional costs such as shipping fees can offset the savings. </p>
+                        <a class="btn btn-light btn-xl" href="#services">Let's See</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services" >
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Click the Button to See </h2>
+                <hr class="divider" />
+                
+                
+                <div class="p-0 row gx-4 gx-lg-5">
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-10" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">AEON</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-1" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">DCHFOOD</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center" >
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-2" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">JASONS</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-11" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">Local Chicken Farm</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-3" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">MANNINGS</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-4" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">PARKNSHOP</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center" >
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-13" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">Slaughterhouses</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-5" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">WATSONS</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-6" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">WELLCOME</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-7" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">Cheung Sha Wan Wholesale Vegetable Market</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-8" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">Cheung Sha Wan Fish Market</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-9" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">Cheung Sha Wan and Western Wholesale Food Market</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center vertical-center">
+                        <div class="mt-5">
+                            <a href="#myAreaChart" class="btn btn-secondary btn-icon-split btn-lg" id="btn-chart-12" onclick="showChart(this.id)">
+                                <span class="icon text-white-50">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="text">Cheung Sha Wan Temporary Wholesale Poultry Market</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+
+                    <p></p>
+                    <hr class="divider" />
+                    
+                    <!-- Area Chart -->
+                    <div class="card shadow mb-4 hidecard" id="myAreaChart">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">
+                                Average of Price by Main Category
+                            </h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-area">
+                                <canvas id="areaChart"></canvas>
+                            </div>
+                            <hr />
+                            <code style="color: #4e73df;">Blue: Average of Price </code> 
+                            </br>
+                            <code style="color: #ff6384;">Red: Total Product</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
+        <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    </body>
+</html>
