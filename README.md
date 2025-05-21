@@ -1,9 +1,18 @@
 # Price-Watch
-This project aims to analyze the data of consumer council.\
+This project focuses on analyzing the pricing structure within the food and beverage category, examining average prices across different sources. Taking everything into account,  9 categories will be employed in the data analysis. It will meticulously gather data from wholesale prices of major fresh food and online supermarkets. The analysis will explore price disparities among products sold by various online retailers, aiming to provide insights into the food and beverage industry's pricing dynamics.  This can enhance consumer understanding and potentially influence purchasing decisions.
+## PowerBi
+### Preparation and Dashboard
+The project begins by creating a PowerBi dashboard displaying a table of product prices and quantities, categorized by type. It highlights Jasons, Parknshop, and Wellcome as major suppliers and shows product distribution by source. A column chart displays product quantity per category, and a line plot shows average pricing by category, indicating that milk powder and baby care products are more expensive than other food items.\
+The project then explores factors influencing product pricing and their relationships. A column chart shows product prices categorized by source, and a bar chart displays average prices by brand, highlighting the highest-priced products. A line plot suggests that lower-priced products have higher sales volumes due to increased competition. The last chart indicates that categories with higher product prices have fewer sellers, while those with lower prices have more brands, suggesting a correlation between competition and average product prices.\
+The second dashboard provides a detailed examination of products, presenting the highest and lowest-priced products within a selected sub-category. It includes average product prices, the number of products sold, and the number of brands offering those products. A treemap shows product distribution by source, and a line plot offers a detailed view of the relationship between product quantity and sales for the chosen sub-category. This dashboard allows for the evaluation of product pricing by category or source, offering comprehensive insights for decision-making.
+### Product price analysis
+Power BI dashboards present product price analysis, featuring a table of top- and lowest-priced items and an overview of average prices, product counts, and brand numbers per category. For instance, the bakery/cereals/spreads category has 110 products from 32 brands, with the most expensive being "Royal Jelly in Mountains Flower Honey 375g" and the least expensive "INSTANT OATMEAL 200 GM." The average price is $38.24.\
+A treemap in the upper-right corner displays product distribution by source, highlighting Jasons and Wellcome's significant market presence. This visualization shows that hypermarkets offer a wider product range compared to other retailers.\
+In the bottom-left corner, a bar chart displays the average price for each brand, allowing for the identification of the highest-priced brand. The dashboard's tables and charts are interrelated, showcasing a holistic view of the product landscape across pricing, quantity, and source distribution. For example, brand Hipp sells six products, with "Combiotic 2 Organic Follow-on Milk 800g" being the highest-priced and "Organic Baby Cereal 100% Rice 200g" being the lowest-priced, exclusively sold at Watsons and Mannings.
+## Website
 This website provides food and beverage prices in Hong Kong in 2023. \
 Which, this website is mainly separated into 3 parts: Category, Dashboard for Categories in Source, and Dashboard for Source of Product Supply.\
 In Category, mouse hover is able to see the name of the image, and click to open a pop-up content.\
-In the Dashboard for Categories in Source, it shows the bar chart of the amount of products by category, when the mouse on hover can view the details. \
+In the Dashboard for Categories in Source, it shows the bar chart of the number of products by category, when the mouse on hover can view the details. \
 In the Dashboard for Source of Product Supply, it shows the line chart of the average price of the main category by different sources, when the mouse on hover can view the details.
 
-This project finished in April 2024.
